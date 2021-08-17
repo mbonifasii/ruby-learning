@@ -1,3 +1,19 @@
+=begin
+
+    What is the difference between Class and Module in Ruby?
+
+        Firt of all, a class is basically a template that we can use to create instances of objects. 
+        An Object is anything that has attibutes and methods.
+        So, modules are very similar to classes, but the main difference is that we cannot create objects from a module.
+        Normally, we use modules to reduce code and implement their methods in some classes 
+        You can check an example of modules and clases in example.rb
+
+        
+
+    Homework - Prime Numbers
+
+=end
+
 class Prime
     def getARandomNumber
         return rand 1 .. 10
